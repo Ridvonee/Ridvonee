@@ -1,9 +1,9 @@
 <?php 
-Class mahasiswa{
+Class motor{
 public $nama;
-public $nim;
+public $merk;
 function __construct($a,$b){$this->nama=$a;
-$this->nim=$b;
+$this->merk=$b;
 echo "Kelas telah dibuat<br/><br/>";
 }
 function cetak(){
