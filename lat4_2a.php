@@ -2,8 +2,7 @@
 Class mahasiswa{
 public $nama;
 public $nim;
-function __construct($a,$b){
-$this->nama=$a;
+function __construct($a,$b){$this->nama=$a;
 $this->nim=$b;
 echo "Kelas telah dibuat<br/><br/>";
 }
